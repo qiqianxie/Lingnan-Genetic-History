@@ -1,0 +1,14 @@
+//Search ranges and rules file
+[PARAMETERS]
+//#isInt? #name #dist.#min #max
+1 N_HAKKA unif 100 100000 output
+1 N_CHB unif 100 100000 output
+1 N_GDY unif 100 100000 output
+1 N_ANC unif 100 100000 output
+1 T_HAN_DIV unif 10 1000 output
+1 T_DIFF_YAO unif 10 2500 hide
+
+[COMPLEX PARAMETERS]
+0 RES_CHB = N_CHB/N_CHB hide
+0 RES_ANC = N_ANC/N_GDY hide
+1 T_YAO_HAN_DIV = T_HAN_DIV + T_DIFF_YAO output

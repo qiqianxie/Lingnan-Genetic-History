@@ -1,0 +1,26 @@
+[PARAMETERS]
+//#isInt? #name #dist.#min #max
+// Modern populations
+1 popHAK unif 100 100000 output
+1 popCAN unif 100 100000 output
+1 popTEO unif 100 100000 output
+1 popGDY unif 100 100000 output
+// Ancestral populations
+1 ancCT unif 100 100000 output
+1 ancHN unif 100 100000 output
+1 ancAC unif 100 100000 output
+
+// Divergence times
+1 TDIV1 unif 10 500 output
+1 gap1 unif 10 1000 hide
+1 gap2 unif 100 3000 hide
+
+[COMPLEX PARAMETERS]
+// Resizing rules
+0 rsCT = ancCT/popTEO hide
+0 rsHN = ancHN/popTEO hide
+0 rsAC = ancAC/popGDY hide
+
+// Time continuity links
+1 TDIV2 = TDIV1 + gap1 output
+1 TDIV3 = TDIV2 + gap2 output
