@@ -39,7 +39,7 @@ Please navigate to each sub-directory to find specific instructions and the exac
 *   For **fastsimcoal2**, a detailed workflow, including how to calculate AIC and 95% CIs via bootstrapping, is provided in `03_fastsimcoal2_Modeling/README.md`.
 
 ### Data Availability
-The analysis-ready genomic datasets generated for this study have been deposited in Zenodo. The data is now publicly accessible at: https://doi.org/10.5281/zenodo.18289776 (DOI: 10.5281/zenodo.18289776)
+The analysis-ready genomic datasets generated for this study have been deposited in Zenodo. The data is now publicly accessible at: https://doi.org/10.5281/zenodo.23408089 (DOI: 10.5281/zenodo.23408089)
 
 ### Citation
 Our manuscript is currently under review. If you use the scripts, models, or data formatting pipelines from this repository, please cite our paper once published:
